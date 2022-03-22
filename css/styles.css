@@ -1,0 +1,158 @@
+body {
+  color: #40514E;
+  background-color: honeydew;
+  /*margin: 0;     w/o would be a space to left uncolored uz div*/
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 150%;
+}
+/*MARGIN AFFECTS PLACEMENT*/
+/*Margin is the space outside the border of an element, while padding is the space inside the border of it. */
+/*When you style an element, padding will also be affected (e.g. background color), but not margin.*/
+/*----------------------------------------------------------------------*/
+h1 {
+  margin: 50px auto 0 auto;
+  font-weight: 600;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: normal;
+  color:#11999E;
+  font-size:2.5rem
+}
+h3 {
+  color: #66BFBF;
+}
+
+p{
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: snow;
+}
+
+hr {
+
+  border-style: dotted none none none;
+  border-color:  grey;
+  border-width: 5px;
+  width: 12%;
+  margin: 100px auto 100px auto;
+
+}
+
+.web{
+
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+
+}
+/*----------------------------------------------------------------------*/
+.top-cloud{
+position: absolute;
+top: 80px;
+right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+}
+.devices{
+  border-radius: 100%
+}
+/*----------------------------------------------------------------------*/
+
+.top-container{
+  background-color: lightgrey;
+  padding-top: 100px;
+}
+
+.middle-container{
+  background-color: honeydew;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.bottom-container{
+  background-color: lightgrey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+.rights-reserved{
+  color: white;
+  font-size: 1rem;
+}
+
+.intro{
+  width: 30%;
+  margin: 0 auto 0 auto;
+
+}
+
+.outro{
+  width: 30%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 50px;
+
+}
+/*----------------------------------------------------------------------*/
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+/*----------------------------------------------------------------------*/
+.coding-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.devices-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+/*----------------------------------------------------------------------*/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
